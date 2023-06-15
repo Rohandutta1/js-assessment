@@ -43,10 +43,11 @@ function getTotalSupply() {
 // Mint some NFTs
 const nft1 = mintNFT("NFT 1", "This is the first NFT", "image1.jpg");
 const nft2 = mintNFT("NFT 2", "This is the second NFT", "image2.jpg");
-
+const nft3 = mintNFT("NFT 3", "This is the third NFT", "image3.jpg");
 // Store the minted NFTs in the array
 nfts.push(nft1);
 nfts.push(nft2);
+nfts.push(nft3);
 
 // List all NFTs
 listNFTs();
